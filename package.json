@@ -1,0 +1,21 @@
+{
+  "name": "prince-telegram-bot",
+  "version": "1.0.0",
+  "description": "Prince Telegram AI Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai"
+  ],
+  "author": "Prince",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "node-telegram-bot-api": "^2.0.0",
+    "openai": "^6.16.0"
+  }
+}
